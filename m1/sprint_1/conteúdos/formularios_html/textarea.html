@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea em formulários</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button {
+            width: 500px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            border: 2px solid lightgray
+        }
+
+        textarea {
+            background-color: lightgrey;
+            max-width: 500px;
+            min-width: 500px;
+            max-height: 200px;
+            min-height: 200px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Textarea em formulários</h1>
+
+    <form>
+        <label for="msg">Digite sua mensagem</label>
+        <br>
+        <textarea name="mensagem" id="msg" cols="30" rows="10" placeholder="Digite sua mensagem..." required></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+        
+    </form>
+    
+</body>
+</html>

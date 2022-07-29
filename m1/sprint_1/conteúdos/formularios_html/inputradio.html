@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Radio</title>
+    <style>
+
+        #caixa {
+               padding: 10px; 
+               display: inline-block;
+           }
+   
+       </style>
+</head>
+<body> 
+
+    <h1>Input Radio</h1>
+    
+    <form>
+        <p>Escolha o método de pagamento</p>
+            <div id="caixa">
+                <label for="credito">Cartão de crédito</label>
+                <input type="radio" name="opcaodepagamento" id="credito" value="credito" required>
+            </div>
+            <div id="caixa">
+                <label for="debito">Cartão de débito</label>
+                <input type="radio" name="opcaodepagamento" id="debito" value="debito" required>
+            </div>
+            <div id="caixa">
+                <label for="pix">Pix</label>
+                <input type="radio" name="opcaodepagamento" id="pix" value="pix" required>
+            </div>
+            <div id="caixa">
+                <label for="boleto">Boleto</label>
+                <input type="radio" name="opcaodepagamento" id="boleto" value="boleto" required>
+            </div>
+            <button type="submit">
+                Pagar
+            </button>
+    </form>
+    
+</body>
+</html>

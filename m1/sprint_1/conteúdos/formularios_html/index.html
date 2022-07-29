@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+
+     #caixa {
+            padding: 10px; 
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Formulários, label e input</h1>
+
+    <form>
+        <div id="caixa">
+            <label for="email">E-mail</label>
+            <input name="email" type="email" placeholder="Digite seu e-mail aqui..." required="true" id="email">
+        </div>
+
+        <div id="caixa">
+            <label for="senha">Senha</label>
+            <input name="senha" type="password" placeholder="Digite sua senha aqui..." maxlength="8" required="true" id="senha">
+        </div>
+       
+        <button type="submit">Entrar</button>
+
+        <br>
+
+        <div id="caixa">
+            <label for="numero">Número</label>
+            <input name="numero" type="number" placeholder="Digite seu número aqui..." maxlength="10" required="true" id="numero">
+        </div>
+
+    </form>
+</body>
+</html>

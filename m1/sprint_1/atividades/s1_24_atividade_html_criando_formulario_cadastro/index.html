@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <style>
+        form {
+            background-color: rgb(228, 228, 228);
+            width: 290px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+
+        div {
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Formulário de cadastro</h1>
+
+    <form>
+     <div id="name">
+         <label for="nome">Nome</label>
+         <input type="text" placeholder="Digite seu nome aqui..." id="nome" required>
+     </div>
+    
+     <div id="emaill">
+         <label for="email">Email</label>
+         <input type="email" placeholder="Digite seu email aqui..." id="email" required>
+     </div>
+
+     <div id="descript">
+         <label for="desc">Descrição</label>
+         <br>
+         <textarea name="descricao" id="desc" cols="30" rows="10" placeholder="Fale mais sobre você aqui..." required></textarea>
+     </div>
+
+     <div id="mod">
+         <label for="modulo">Módulo</label>
+         <br>
+         <select name="qualmodulo" id="modulo">
+            <option value="">Selcione o módulo</option>
+            <option value="m1">Módulo 1</option>
+            <option value="m2">Módulo 2</option>
+            <option value="m3">Módulo 3</option>
+            <option value="m4">Módulo 4</option>
+            <option value="m5">Módulo 5</option>
+            <option value="m6">Módulo 6</option>
+         </select>
+     </div>
+
+     <div id="password">
+         <label for="senha">Senha</label>
+         <br>
+         <input type="password" id="senha" placeholder="Digite sua senha aqui...">
+     <br>
+         <label for="senha">Confirmar senha</label>
+         <br>
+         <input type="password" id="senha" placeholder="Digite sua senha novamnte aqui...">
+     </div>
+
+     <div id="novidades">
+         <p>Deseja receber novidades em seu e-mail?</p>
+         <label for="sim">Sim</label>
+         <input type="radio" id="sim" name="novidadesemail" value="sim">
+         <label for="nao">Não</label>
+         <input type="radio" name="novidadesemail" id="nao" value="nao">
+     </div>
+
+     <div id="botao">
+         <button type="submit">
+            Cadastrar
+         </button>
+     </div>
+    </form>
+    
+</body>
+</html>
