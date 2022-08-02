@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+ul{
+    list-style: none;
+    font-size: 0;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+
+  ul li{
+    display: inline-block;
+  
+  }
+  ul li a{
+    color: white;
+    background-color: rgb(81, 16, 233);
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid lightgray;
+    width: 100vw;
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
