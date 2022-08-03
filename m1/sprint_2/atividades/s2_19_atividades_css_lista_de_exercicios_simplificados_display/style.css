@@ -1,0 +1,37 @@
+ /*Katas 1*/
+
+.katas1 {
+    display: inline;
+    border-bottom: medium solid black;
+    font-size: 3em;
+    list-style: none;
+}
+
+/*Katas 2*/
+
+nav{
+  display: flex;
+}
+
+.ulkatas2{
+  padding: 10px;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #308ebd;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  display: block;
+}
+
+#katas3 {
+  background-color: transparent;
+  color: black;
+}
