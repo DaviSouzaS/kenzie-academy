@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 1000px; /*Colocar em 1300px depois. Estou em um monitor pequeno*/
     width: 100%;
     justify-content: center;
 }
@@ -16,6 +16,18 @@ body {
 .cabecalho {
     background-color:white;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.199);
-    
-    
+}
+
+.conteudo {
+    justify-content: space-between;
+}
+
+.conteudoprincipal {
+    width: 60%;
+    background-color: darkcyan; /*Estou usando essa cor só para facilitar a visualização da caixa*/
+}
+
+.conteudosecundario {
+    width: 30%;
+    background-color: blueviolet; /*Estou usando essa cor só para facilitar a visualização da caixa*/
 }
