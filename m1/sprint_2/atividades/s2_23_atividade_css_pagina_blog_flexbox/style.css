@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px; /*Colocar em 1300px depois. Estou em um monitor pequeno*/
+    max-width: 1300px; /*Colocar em 1300px depois. Estou em um monitor pequeno*/
     width: 100%;
     justify-content: center;
 }
@@ -20,12 +20,51 @@ body {
 
 .conteudo {
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
 }
 
 .conteudoprincipal {
     width: 60%;
-    background-color: darkcyan; /*Estou usando essa cor só para facilitar a visualização da caixa*/
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.post1 {
+   width: 350px;
+   align-items: center;
+   margin-right: 10px;
+}
+
+.post1 img{
+    width: 350px;
+    border-radius: 10px;
+}
+
+.post2 {
+    width: 350px;
+    align-items: center;  
+    margin-left: 10px;
+ }
+ 
+ .post2 img{
+     width: 350px;
+     border-radius: 10px;
+ }
+
+.categoria {
+    display: inline;
+    margin-right: 10px;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    padding: 3px 5px;
+    color: #424242;
+    
+}
+
+
+
+
 
 .conteudosecundario {
     width: 30%;
