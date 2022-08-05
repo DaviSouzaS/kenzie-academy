@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    max-width: 1300px; /*Colocar em 1300px depois. Estou em um monitor pequeno*/
+    max-width: 1300px; 
     width: 100%;
     justify-content: center;
 }
@@ -16,12 +16,20 @@ body {
 .cabecalho {
     background-color:white;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.199);
+    
+}
+
+.cabecalho h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .conteudo {
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 60px;
+    margin-bottom: 80px;
+    font-family: 'Inter', sans-serif;
 }
 
 .conteudoprincipal {
@@ -30,27 +38,117 @@ body {
     flex-wrap: wrap;
 }
 
+.conteudoprincipal h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+.conteudoprincipal p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+}
+
 .post1 {
-   width: 350px;
+   width: 300px;
    align-items: center;
    margin-right: 10px;
+   margin-bottom: 60px;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.post1:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
+    background-color: rgb(236, 236, 236);
+    transition-duration: 0.2s;
+}
+
+.post1 h2:hover {
+    text-decoration: underline;
+}
+
+.post2:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
+    background-color: rgb(236, 236, 236);
+    transition-duration: 0.2s;
+}
+
+.post2 h2:hover {
+    text-decoration: underline;
+}
+
+.post3:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
+    background-color: rgb(236, 236, 236);
+    transition-duration: 0.2s;
+}
+
+.post3 h2:hover {
+    text-decoration: underline;
+}
+
+.post4:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
+    background-color: rgb(236, 236, 236);
+    transition-duration: 0.2s;
+}
+
+.post4 h2:hover {
+    text-decoration: underline;
 }
 
 .post1 img{
-    width: 350px;
     border-radius: 10px;
 }
 
 .post2 {
-    width: 350px;
+    width: 300px;
     align-items: center;  
     margin-left: 10px;
+    margin-bottom: 60px;
+    padding: 10px;
+    border-radius: 10px;
  }
  
  .post2 img{
-     width: 350px;
      border-radius: 10px;
  }
+
+ .post3 {
+    width: 300px;
+    align-items: center;  
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ 
+ .post3 img{
+     border-radius: 10px;
+ }
+
+ .post4 {
+    width: 300px;
+    align-items: center;  
+    margin-left: 10px; 
+    padding: 10px;
+    border-radius: 10px;
+ }
+ 
+ .post4 img{
+     border-radius: 10px;
+ }
+
+.conteudoprincipal a {
+    text-decoration: none;
+    color: #424242;
+}
 
 .categoria {
     display: inline;
@@ -59,14 +157,88 @@ body {
     border-radius: 5px;
     padding: 3px 5px;
     color: #424242;
-    
+    text-decoration: none;
 }
 
+.categoria:hover {
+   background-color: #424242;
+    transition-duration: 0.5s;
+}
 
+p a:hover {
+    color: white; 
+    transition-duration: 0.5s;
 
-
+}
 
 .conteudosecundario {
     width: 30%;
-    background-color: blueviolet; /*Estou usando essa cor só para facilitar a visualização da caixa*/
+
+}
+
+.conteudosecundario h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.conteudosecundario h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sideitens {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideitens img {
+    display: inline;
+}
+
+.sideimg {
+    display: flex;
+    align-items: center;
+    padding:  10px;
+    gap: 17px;
+}
+
+.sideimg:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
+    background-color: rgb(236, 236, 236);
+    transition-duration: 0.2s;
+    border-radius: 10px;
+}
+
+.sideimg a {
+    text-decoration: none;
+    color: black;
+}
+
+.sideimg a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer div img {
+   margin: 0 30px;
 }

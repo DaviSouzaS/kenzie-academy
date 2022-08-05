@@ -5,78 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade- CSS: Página Blog - Flexbox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+                                <!--Cabeçalho-->
     <header class="cabecalho">
         <div class= "container">
             <h1>See News</h1>
         </div>
     </header>
-
+                                <!--Conteúdo principal-->
     <main class="container conteudo">
 
         <section class="conteudoprincipal">
             <div class="post1">
-                <img src="midia/img1.jpg" alt="codigoscss">
-                <h2>Como utilizar o CSS da melhor forma em 2021</h2>
+                <img src="midia/img1.png" alt="codigoscss">
+                <h2><a href="#">Como utilizar o CSS da melhor forma em 2021</a></h2>
 
                 <p>Aprenda a utilizar as melhores técnicas de css e criar interfaces consistentes</p>
 
-                 <p class="categoria">Entretenimento</p> 
+                 <p class="categoria"><a href="#">Entretenimento</a></p> 
 
-                 <p class="categoria">Curiosidades</p> 
+                 <p class="categoria"><a href="#">Curiosidades</a></p> 
             </div>
 
             <div class="post2">
-                <img src="midia/img2.jpg" alt="codigoshtml">
-                <h2>Como utilizar o HTML da melhor forma em 2022</h2>
+                <img src="midia/img2.png" alt="codigoshtml">
+                <h2><a href="#">Como utilizar o HTML da melhor forma em 2022</a></h2>
 
                 <p>Crie estruturas HTML que forneça uma capacidade semântica de qualidade para os...</p>
 
-                 <p class="categoria">Dicas</p> 
+                 <p class="categoria"><a href="#">Dicas</a></p> 
             </div>
 
-            <div hidden class="post3">
-                <figure> <img src="midia/img3.jpg" alt="homememcomputador"> </figure>
-                <h2>Trabalho em equipe - como melhorar a comunicação</h2>
+            <div class="post3">
+                 <img src="midia/img3.png" alt="homememcomputador"> 
+                <h2><a href="#">Trabalho em equipe - como melhorar a comunicação</a></h2>
 
                 <p>Comunicação clara e objetiva é uma skill muito necessária no mercado de trabalho, então va...</p>
 
-                 <p>Dicas</p> 
+                 <p class="categoria"><a href="#">Dicas</a></p> 
             </div>
 
-            <div hidden class="post4">
-                <figure> <img src="midia/img4.jpg" alt="notebookcomcodigoscss"> </figure>
-                <h2>O que CSS moderno pode oferecer para primorar a acessibilidade</h2>
+            <div class="post4">
+                 <img src="midia/img4.png" alt="notebookcomcodigoscss"> 
+                <h2><a href="#">O que CSS moderno pode oferecer para primorar a acessibilidade</a></h2>
 
                 <p>Nesse post vamos aprender conceitos modernos de css para aprimorar a acessibili...</p>
 
-                <p>Novidades</p>
+                <p class="categoria"><a href="#">Novidades</a></p>
             </div>
 
         </section>
-
+                                <!--Conteúdo secundário-->
         <aside class="conteudosecundario">
 
-            <div>
+            <div class="sideitens">
                 <h2>Recents Posts</h2>
-                <h3>Como manter a consistência nos estudos</h3>
-                <h3>Home Office - será esse o futuro de todas as empresas?</h3>
-                <h3>Como manter o ambiente de estudos organizado e agra...</h3>
+
+                <span class="sideimg">
+                    <img src="midia/imgs1.png" alt="minicactoelivros">
+                    <h3><a href="#">Como manter a consistência nos estudos</a></h3>
+                </span>
+
+                <span class="sideimg"> 
+                    <img src="midia/imgs2.png" alt="pessoanocomputador">
+                    <h3><a href="#">Home Office - será esse o futuro de todas as empresas?</a></h3>
+                </span>
+
+                <span class="sideimg">
+                    <img src="midia/imgs3.png" alt="pessoaemcasa">
+                    <h3><a href="#">Como manter o ambiente de estudos organizado e agra...</a></h3>
+                </span>
             </div>
 
-            <div> 
-                <h2>Popular Posts</h2>
-                <h3>Bancos de imagens gratuitos para utilizar em seus projet...</h3>
-                <h3>O que considerar na hora de comprar um pc novo</h3>
-                <h3>Qual a diferença entre UI Design e Front end</h3>
+            <div class="sideitens"> 
+                    <h2>Popular Posts</h2>
+           
+                <span class="sideimg">
+                    <img src="midia/imgs4.png" alt="notebook">
+                    <h3><a href="#">Bancos de imagens gratuitos para utilizar em seus projet...</a></h3>
+                </span>
+
+                <span class="sideimg">
+                    <img src="midia/imgs5.png" alt="salacomcomputador">
+                    <h3><a href="#">O que considerar na hora de comprar um pc novo</a></h3>
+                </span>
+
+                <span class="sideimg"> 
+                    <img src="midia/imgs6.png" alt="pessoacomtouca">
+                    <h3><a href="#">Qual a diferença entre UI Design e Front end</a></h3>
+                </span>
             </div>
 
         </aside>
     </main>
-
-
+                                     <!--Roda pé-->
+    <footer>
+        <h1>See News</h1>
+        <div>
+            <a href="#"><img src="midia/facebook.png" alt="iconfacebook"></a>
+            <a href="#"><img src="midia/instagram.png" alt="iconinstagram"></a>
+            <a href="#"><img src="midia/twitch.png" alt="icontwitch"></a>
+        </div>
+    </footer>
     
 </body>
 </html>
