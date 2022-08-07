@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.profile-cover img{
+    width: 100%;
+    height: 25vh; /*Deixa o site sem rolagem horizontal, mas acaba ficando distorcido em telas menores*/
+}
+
+.profile-content {
+    display: flex;
+    width: 700px; 
+    max-width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    transform: translateY(-30%); /*Novidade*/
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; /*Novidade*/
+}
+
+.profile-img-wrapper {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden; /*Novidade*/
+}
+
+.profile-img:hover {
+    transform: scale(1.4); /*Novidade*/
+    transition-duration: 0.5s;
+}
+
+.profile-name {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.profile-name a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile-name a:hover {
+    text-decoration: underline;
+}
+
+.profile-description {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 32px;
+}
+
+/* Para deixar o site responsivo acabei mechendo nas configurações do plano de fundo e ele fica meio destorcido em telas retrato, estilo smartphone em pé. */ 
