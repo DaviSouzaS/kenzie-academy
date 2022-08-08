@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas de de inserir codigo java script</title>
+     <!-- <script defer src="index.js"></script> SCRIPT EXTERNO-->
+
+     <!-- <script defer> alert("Olá mundo!") </script> SCRIPT INTERNO  -->
+
+      <!--Normalmente utilizamos o script no final do body, pois um arquivo carrega de cima para baixo, e se o script for renderizado primeiro que o material do site, podemos ter erros. Mas quando utilizamos o script na head com o atributo defer, isso é anulado. É correto usar o defer quanto estamos utilizando o script acima do codigo principal do site e isso vale para o script local e o script externo-->
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit.</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi libero nesciunt facilis aperiam quae repellendus vero? Aliquam maxime, quidem, tempora est, sit consectetur autem pariatur tempore culpa amet totam odio!</p>
+
+   <!-- <script>
+        alert("Olá mundo!")   SCRIPT INTERNO  
+    </script> -->
+    <script src="index.js"></script> <!--SCRIPT EXTERNO-->
+    <!-- A Dinâmica de Script Interno e Externo é muito semelhante a do CSS-->
+</body>
+</html>

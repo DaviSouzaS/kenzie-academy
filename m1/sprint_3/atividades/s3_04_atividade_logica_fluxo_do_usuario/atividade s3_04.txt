@@ -1,0 +1,69 @@
+S3-04 | 💪 Atividade - Lógica: Desenvolvendo fluxo do usuário em uma aplicação
+
+Situação: "Uma pessoa acessou um website em busca de encontrar e comprar um celular"
+
+Passos:
+
+Acessar página inicial do website
+
+Realizar cadastro
+
+Acessar aba de celulares
+
+Procurar produto
+
+Clicar no produto
+
+Acessar página com detalhes
+
+Clicar no botão inserir no carrinho de compras
+
+Clicar na aba carrinho de compras
+
+Clicar no botão finalizar compras
+
+Selecionar o método de pagamento (neste exemplo, por cartão de crédito)
+
+Inserir os dados do cartão de crédito
+
+Cadastrar o cartão no site
+
+Clicar no botão para concluir a compra
+
+Checar o email para validar se a compra foi realizada 
+
+
+
+
+Insira estruturas de condição entre as ações para as seguintes situações:
+
+"O usuário só poderá comprar se encontrar produtos"
+"Se não a pessoa sairá do site"
+
+Se (Encontrar produtos)
+O usuário pode comprar
+
+Se não (Encontrar produtos)
+O usuário sairá do site 
+
+
+"O usuário só poderá pagar com cartão de crédito se essa forma estiver disponível"
+"Se não a pessoa sairá do site"
+
+Se (A forma estiver disponível) 
+O usuário poderá pagar com cartão de crédito
+
+Se não (A forma estiver disponivel)
+O usuário sairá do site 
+
+
+Insira estruturas de repetição (Enquanto) entre as ações para a seguinte situação:
+
+“O cliente continuará procurando por um produto até no máximo 1 minuto”
+
+“Caso não encontrar, sairá do site”
+
+
+Enquanto (Tempo de procura for menor ou igual a 1 minuto)
+O cliente continuará no site  
+
