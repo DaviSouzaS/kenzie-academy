@@ -1,15 +1,23 @@
 //Exercício 1 
-let idade = 24
-let avaliarIdade = idade > 18 && idade < 25 
-console.log('A idade está entre 18 e 25')
+let valor1 = 10
+let valor2 = '10'
+let comparacaoDeValores = valor1 === valor2
+console.log(comparacaoDeValores)
+    //False
+
 
 //Exercício 2 
-let carroNome = 'Chevrolet'
-let carroAno = 2019
-let filtrarCarro = carroNome == 'Chevrolet' && carroAno == 2019
-console.log('Carro encontrado')
+let usuario1Altura =  1.80
+let usuario2Altura =  1.75
+let comparacaoDeAlturas = usuario1Altura > usuario2Altura
+console.log(comparacaoDeAlturas)
+    //True
+
 
 //Exercício 3 
-let botaoMenu = false
-let avaliarClick = !botaoMenu
-console.log('fechar menu')
+let valorUm = 10
+let valorDois = '10'
+let comparacaoDeValores2 = valor1 !== valor2
+console.log(comparacaoDeValores2)
+    //True
+
