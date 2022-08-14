@@ -34,3 +34,28 @@ B = guardar
 alert(`Os valores originais de A e B são respectivamente ${B} e ${A}, após a troca, se tornaram ${A} e ${B}`) 
 
 //Exercício 4 
+
+let quantidadeFitas = parseInt(prompt('Digite a quantidade de fitas da locadora'))
+
+let fitasAlugadasMes = quantidadeFitas/3
+
+let fitasAno = fitasAlugadasMes * 12 
+
+let valorAluguel 
+
+let entrgaAtraso = prompt('Digite "Sim" se o cliente atrasou a entrega ou "Não" se o cliente não atrasou a entrega')
+
+if(entrgaAtraso == 'Sim') {
+    valorAluguel = valorAluguel + (valorAluguel/10)
+}
+else if (entrgaAtraso == 'Não') {
+    valorAluguel = valorAluguel
+}
+
+let atrasoMes = fitasAlugadasMes/10
+
+let valorMultasMes = atrasoMes * (valorAluguel/10)
+
+//Exerício 5
+
+let contaCorrente = parseInt(prompt('Digite os números da sua conta corrente. Ex: 123'))
