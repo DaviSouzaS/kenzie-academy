@@ -70,4 +70,28 @@ alert(`O ${clienteLocadora} alugou ${fitasAlugadas} fitas e ${entrgaAtraso} a en
 
 //Exerício 5
 
-let contaCorrente = parseInt(prompt('Digite os números da sua conta corrente. Ex: 123'))
+let contaCorrente1 = (prompt('Digite o primeiro dígito da sua conta'))
+
+let contaCorrente2 = (prompt('Digite o segundo dígito da sua conta'))
+
+let contaCorrente3 = (prompt('Digite o terceiro dígito da sua conta'))
+
+let somaConta = Number(contaCorrente1 + contaCorrente2 + contaCorrente3)
+
+let inversoConta = Number(contaCorrente3 + contaCorrente2 + contaCorrente1)
+
+let operacao1 = somaConta + inversoConta
+
+alert (`Agora escreva dígito por dígito deste número ${operacao1}(A*1+B*2+C*3)`)
+
+let digito1 = parseInt(prompt('Digite o primeiro dígito'))
+
+let digito2 = parseInt(prompt('Digite o segundo dígito'))
+
+let digito3 = parseInt(prompt('Digite o terceiro dígito'))
+
+let operacao2 = (digito1 * 1) + (digito2 * 2) + (digito3 * 3)
+
+alert (`O último digito do resultado (${operacao2}) é o dígito verificador`)
+
+//Esse foi o exercício que mais forcei a barra para funcionar, o próprio enunciado da atividade fala que em algum momento precisariamos manipular os números. Em algum momento do futuro, vou ver isso e achar bem engraçado. 
