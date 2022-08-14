@@ -35,26 +35,38 @@ alert(`Os valores originais de A e B são respectivamente ${B} e ${A}, após a t
 
 //Exercício 4 
 
-let quantidadeFitas = parseInt(prompt('Digite a quantidade de fitas da locadora'))
+let quantidadeFitas = parseInt(prompt('Digite a quantidade de fitas inical da locadora'))
 
 let fitasAlugadasMes = quantidadeFitas/3
 
 let fitasAno = fitasAlugadasMes * 12 
 
-let valorAluguel 
+let valorAluguel = 15 //Cada alugel de fita custa 15 reais. 
 
-let entrgaAtraso = prompt('Digite "Sim" se o cliente atrasou a entrega ou "Não" se o cliente não atrasou a entrega')
-
-if(entrgaAtraso == 'Sim') {
-    valorAluguel = valorAluguel + (valorAluguel/10)
-}
-else if (entrgaAtraso == 'Não') {
-    valorAluguel = valorAluguel
-}
 
 let atrasoMes = fitasAlugadasMes/10
 
 let valorMultasMes = atrasoMes * (valorAluguel/10)
+
+let fitasRestantes = (quantidadeFitas - (quantidadeFitas*0.02)) + (quantidadeFitas/10)
+
+//Para o sistema da locadora
+alert(`A quantidade inical de fitas é ${quantidadeFitas}, por mês são alugadas ${fitasAlugadasMes.toFixed(1)} e por ano são alugadas ${fitasAno}. O valor do alugel é  R$ ${valorAluguel}, porém caso houver atraso, ocorre uma multa de 10% a mais no valor do alugel. Por mês ocorrem ${atrasoMes.toFixed(1)} atrasos, com isso o valor adquirido em multas por mês é de R$ ${valorMultasMes.toFixed(1)}. E no final do ano, após eventuais perdas de fitas, e reposições, a quantidade restante é ${fitasRestantes}`)
+
+let clienteLocadora = prompt('Digite seu nome')
+let fitasAlugadas = parseInt(prompt('Digite o número de fitas alugadas'))
+let entrgaAtraso = prompt('Digite "Atrasou" se o cliente atrasou a entrega ou "Não Atrasou" se o cliente não atrasou a entrega')
+
+if(entrgaAtraso == 'Atrasou') {
+    valorAluguel = valorAluguel + (valorAluguel/10)
+}
+else if (entrgaAtraso == 'Não Atrasou') {
+    valorAluguel = valorAluguel
+}
+
+let valorPagar = fitasAlugadas * valorAluguel
+//Para o cliente
+alert(`O ${clienteLocadora} alugou ${fitasAlugadas} fitas e ${entrgaAtraso} a entrega. o valor que o cliente deverá pagar é: R$ ${valorPagar}.`)
 
 //Exerício 5
 
