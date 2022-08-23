@@ -1,3 +1,5 @@
+//ARRAYS NUMÉRICOS
+
 //Exercício 1 
 function Exercicio1 (lista) {
         
@@ -84,7 +86,6 @@ console.log(Exercicio4(arrayaleatorio))
 
 //Exercício 5
 function Exercicio5 (arraySomaTudo) {
-
     let resultado = 0
 
     for (let i = 0; i < arraySomaTudo.length; i++) {
@@ -94,19 +95,93 @@ function Exercicio5 (arraySomaTudo) {
         return true
 
     }      
-
     else {
         return false
     }
-
-    } 
-   
+        } 
 }
-
 let arraySomaGeral = [1, -2, 1, 2]
 console.log(Exercicio5(arraySomaGeral))
 
 
 
 //Exercício 6 
+
+function Exercicio6 (arrayRecebe5) {
+
+    let arrayMais5 = arrayRecebe5
+    let resultado = []
+    
+    
+    for (let i = 0; i < arrayMais5.length; i++) {
+        let soma5 = arrayMais5[i] + 5
+
+        resultado.push(soma5)
+        
+    }
+    return resultado
+   
+}
+let arrayQualquer = [1,5,3,6,10]
+console.log(Exercicio6(arrayQualquer))
+
+
+
+//Exercicio 7 
+
+//criar uma função que recebe um array como parametro
+
+//calcular a media dos valores contidos nesse array
+
+//criar outro array e incluir nele somente os elementos do array do parametro que sejam maiores que a média
+
+function Exercicio7 (arrayMedia) {
+
+    let resultado = 0
+
+    for (let i = 0; i  < arrayMedia.length; i++) {
+        resultado += arrayMedia[i]
+        return resultado
+        
+    }
+
+}
+
+
+
+//ARRAYS DE STRINGS E STRINGS 
+
+//Exercício 2 
+function Exercicio2a (arrayString) {
+    
+    //Preciso incluir o 'For' de alguma forma
+    let somaString = arrayString[0].length + arrayString[1].length + arrayString[2].length + arrayString[3].length
+    
+    return somaString
+}
+
+let frutas = ['abacaxi','maçã','mamão','limão']
+console.log(Exercicio2a(frutas))
+
+
+
+//Exercício 3
+
+//Criar uma função qu receba uma string como parâmetro
+//Criar um array que contem todas as palavras com comprimento ímpar
+//retornar este array 
+
+function Exercicio3a (stringImpar) {
+    let 
+}
+
+
+
+//Exercício 4 
+function Exercicio4a (stringZero) {
+    let stringIgual = stringZero 
+
+    for (let i = 0; i < stringZero; i++){}
+    
+}
 
