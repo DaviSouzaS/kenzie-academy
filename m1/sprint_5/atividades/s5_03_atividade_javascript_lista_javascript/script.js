@@ -79,3 +79,34 @@ function Exercicio4 (arrayNormal) {
 }
 arrayaleatorio = [-10,-4,-3,-1,-5,6,7,8,9,-10,-11,-7,60,11]
 console.log(Exercicio4(arrayaleatorio))
+
+
+
+//Exercício 5
+function Exercicio5 (arraySomaTudo) {
+
+    let resultado = 0
+
+    for (let i = 0; i < arraySomaTudo.length; i++) {
+        resultado += arraySomaTudo[i]  
+
+        if (resultado > arraySomaTudo.length) {
+        return true
+
+    }      
+
+    else {
+        return false
+    }
+
+    } 
+   
+}
+
+let arraySomaGeral = [1, -2, 1, 2]
+console.log(Exercicio5(arraySomaGeral))
+
+
+
+//Exercício 6 
+
