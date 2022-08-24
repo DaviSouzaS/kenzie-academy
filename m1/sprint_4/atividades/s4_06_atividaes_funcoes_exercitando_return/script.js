@@ -31,16 +31,16 @@ console.log(convertToCelsius('Kelvin', 273))
 
 function convertToFahrenheit(currentType2, currentValue2) {
     if (currentType2 == 'Celsius') {
-        return currentValue2 * 1,8 + 32
+        return currentValue2 * 1.8 + 32
         //De Celsius para Fahrenheit
     }
     if(currentType2 == 'Kelvin') {
-        return (currentValue2 - 273) * 1,8 + 32
+        return (currentValue2 - 273) * 1.8 + 32
         //De Kelvin para Fahrenheit
     }
 }
 
-console.log(convertToFahrenheit('Celsius', 100)) //O valor não está batendo, preciso descobiri porqu só essa function não funcionou 
+console.log(convertToFahrenheit('Kelvin', 323)) 
 
 
 
