@@ -129,59 +129,175 @@ console.log(Exercicio6(arrayQualquer))
 
 //Exercicio 7 
 
-//criar uma função que recebe um array como parametro
-
-//calcular a media dos valores contidos nesse array
-
-//criar outro array e incluir nele somente os elementos do array do parametro que sejam maiores que a média
-
 function Exercicio7 (arrayMedia) {
 
     let resultado = 0
+    let arrayVazio = []
+    
 
     for (let i = 0; i  < arrayMedia.length; i++) {
         resultado += arrayMedia[i]
-        return resultado
         
-    }
+    } 
 
+let media = resultado/arrayMedia.length-1
+
+    for (let i = 0; i < arrayMedia.length; i++ ) {
+        if(arrayMedia[i] > media) {
+        arrayVazio.push(arrayMedia[i])
+        
+        }
+    }
+return arrayVazio
 }
+
+let array00 = [20, 1, 10 ,5 , 7, 10, 5, 9]
+
+console.log(Exercicio7(array00))
 
 
 
 //ARRAYS DE STRINGS E STRINGS 
 
+//Exercício 1
+
+const letraA = 'Faça a pessoa que você gosta se sentir especial ao invés de só mais uma'
+
+function exercicio1b (stringA) {
+
+    let contador = 0
+
+    for (let i = 0; i < stringA.length; i++ ) {
+
+        if (stringA[i] == 'a' || stringA[i] == 'A' ) {
+            contador++
+        }
+
+    }
+    return contador
+}
+
+console.log(exercicio1b(letraA))
+
+
+
 //Exercício 2 
-function Exercicio2a (arrayString) {
+
+function exercicio2a (arrayString) {
+
+    let resultado = 0
     
-    //Preciso incluir o 'For' de alguma forma
-    let somaString = arrayString[0].length + arrayString[1].length + arrayString[2].length + arrayString[3].length
+    for (let i = 0; i < arrayString.length; i++) {
+
+        resultado += arrayString[i].length
+    }
     
-    return somaString
+    return resultado
 }
 
 let frutas = ['abacaxi','maçã','mamão','limão']
-console.log(Exercicio2a(frutas))
+
+console.log(exercicio2a(frutas))
 
 
 
 //Exercício 3
 
-//Criar uma função qu receba uma string como parâmetro
-//Criar um array que contem todas as palavras com comprimento ímpar
+//Criar uma função que receba uma string como parâmetro
+
+//Criar um array que contem todas as palavras da string que tem comprimento ímpar
+
+    //Não sei exatamente como selecionar palavras em uma string, acho que tudo fica como uma coisa só
+
 //retornar este array 
 
-function Exercicio3a (stringImpar) {
-    let 
+function exercicio3a (stringImpar) {
+    let arrayPalavras  = [] 
+    let strVazia = ''
+    let arrayPalavras2 = []
+    for (let i = 0; i < stringImpar.length; i++) {
+
+        if ( stringImpar[i] == ' ') {
+
+            arrayPalavras.push(strVazia)
+            strVazia = ''
+        } 
+
+        else {
+            strVazia += stringImpar[i]
+        }
+    }
+    for (let i = 0; i < arrayPalavras.length; i++) {
+        if (arrayPalavras[i].length % 2 != 0) {
+            arrayPalavras2.push(arrayPalavras[i])
+        }
+         
+    }
+
+    return arrayPalavras2
 }
+console.log(exercicio3a('função que recebe uma string Rua A AA  '))
 
 
 
 //Exercício 4 
-function Exercicio4a (stringZero) {
-    let stringIgual = stringZero 
 
-    for (let i = 0; i < stringZero; i++){}
-    
+//Criar uma função que recebe uma string como parâmetro
+
+//Trocar todas as letras 'o' para '0'
+
+//retornar a string
+
+function Exercicio4a (stringZero) {
+    let str = ''
+    for (let i = 0; i < stringZero.length; i++) {
+
+    if (stringZero[i] == 'o' || stringZero[i] == 'O' ) {
+        str += '0'
+    }
+    else {
+        str += stringZero[i]
+    }
+   }
+
+   return str
 }
 
+//function Exercicio4a (stringZero) {
+
+    //let str = ''
+    //for (let i = 0; i < stringZero.length; i++) {
+       // if (stringZero[i] == 'o') {
+          //  str += '0' 
+       // }
+        //else {
+           // str += stringZero[i]
+       // }
+   // }
+//return str
+//} 
+
+let qualquer = ''
+console.log(Exercicio4a(qualquer))
+
+
+
+//Exercício 5 
+
+//Criar uma função que recebe uma string como parâmetro 
+
+//Troca todos os 'p' por 'P' 
+
+//Retorna a nova string 
+
+function exercicio5a (stringP) {
+
+    for (let i = 0; i < length.stringP; i++) {
+
+        if (stringP [i] == 'p') {
+            //substituir o 'p' por 'P' 
+        }
+
+    }
+    //retornar a nova string
+}
