@@ -203,14 +203,6 @@ console.log(exercicio2a(frutas))
 
 //Exercício 3
 
-//Criar uma função que receba uma string como parâmetro
-
-//Criar um array que contem todas as palavras da string que tem comprimento ímpar
-
-    //Não sei exatamente como selecionar palavras em uma string, acho que tudo fica como uma coisa só
-
-//retornar este array 
-
 function exercicio3a (stringImpar) {
     let arrayPalavras  = [] 
     let strVazia = ''
@@ -242,12 +234,6 @@ console.log(exercicio3a('função que recebe uma string Rua A AA  '))
 
 //Exercício 4 
 
-//Criar uma função que recebe uma string como parâmetro
-
-//Trocar todas as letras 'o' para '0'
-
-//retornar a string
-
 function Exercicio4a (stringZero) {
     let str = ''
     for (let i = 0; i < stringZero.length; i++) {
@@ -263,41 +249,25 @@ function Exercicio4a (stringZero) {
    return str
 }
 
-//function Exercicio4a (stringZero) {
-
-    //let str = ''
-    //for (let i = 0; i < stringZero.length; i++) {
-       // if (stringZero[i] == 'o') {
-          //  str += '0' 
-       // }
-        //else {
-           // str += stringZero[i]
-       // }
-   // }
-//return str
-//} 
-
-let qualquer = ''
+let qualquer = 'Onivoro'
 console.log(Exercicio4a(qualquer))
-
-
 
 //Exercício 5 
 
-//Criar uma função que recebe uma string como parâmetro 
-
-//Troca todos os 'p' por 'P' 
-
-//Retorna a nova string 
-
 function exercicio5a (stringP) {
+    let str = ''
+    for (let i = 0; i < stringP.length; i++) {
 
-    for (let i = 0; i < length.stringP; i++) {
-
-        if (stringP [i] == 'p') {
-            //substituir o 'p' por 'P' 
+        if (stringP[i] == 'p') {
+            str += 'P'
         }
-
+        else {
+           str += stringP[i] 
+        }
+        
     }
-    //retornar a nova string
+    return str
 }
+
+let frasesP = 'O papa não gosta de paralelepipedos, pipas, pangares, pinguins, piano e puddles'
+console.log(exercicio5a(frasesP))
