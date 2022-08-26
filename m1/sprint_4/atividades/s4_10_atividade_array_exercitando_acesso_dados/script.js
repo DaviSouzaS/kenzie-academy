@@ -4,7 +4,7 @@ let nomeDosCompetidores = ["Maria", "Heric", "Roberta", "Rafael", "Lucas"]
 console.log(nomeDosCompetidores[0])
 
 //Exercíco 2
-console.log(nomeDosCompetidores[4])
+console.log(nomeDosCompetidores[nomeDosCompetidores.length - 1])
 
 //Exercício 3 
 let posicoesDoPodio = [1,2,3,4,5]
