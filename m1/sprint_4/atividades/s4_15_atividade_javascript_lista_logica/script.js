@@ -48,13 +48,71 @@ console.log(calculaValorSalario(1200,1800))
 
 function notaDaPosicao (listaNotas, listaPosição) {
 
+    let result = listaNotas[listaPosição]
+    
+    return result
+}
+
 let notas = [5, 7, 10, 3, 9, 5, 5, 2, 1, 9, 8, 3, 4, 6, 7, 6, 7, 8, 10, 7] 
 
-for (let i = 0; i <= notas.length; i++) {
-    notas = notas[i] 
+console.log(notaDaPosicao(notas, 0))
+
+//Atividade 6
+
+function reprovadoOuAprovado (listaNotas, listaPosição) {
+
+    let result = listaNotas[listaPosição]
+
+    if (result >= 7) {
+        return 'Aprovado'
+    }
+    else if (result < 7) {
+        return 'Reprovado'
+    }
 }
 
-//Não Faço ideia de como fazer a lista de notas ser selecionada pelo parâmetro listaNotas, e a listaPosição selecionar o [i]
+console.log(reprovadoOuAprovado(notas, 1))
+
+//Atividade 7 
+
+function adicionaNota (listaNotas, notaAdd) {
+
+    if (notaAdd > 0 && notaAdd <= 10) {
+
+    listaNotas.push(notaAdd) 
+
+    return listaNotas
+    } 
+
+    else {
+        return 'Nota Inválida'
+    }
 }
 
+console.log (adicionaNota(notas, 9))
 
+//Atividade 8 
+
+function alteraNota (lista, posicaoLista, novoValor) {
+
+    if (novoValor <= 10 && novoValor >= 1) {
+
+    lista[posicaoLista] = novoValor
+
+    return lista
+    }
+    else {
+        return 'Valor inválido'
+    }
+}
+
+console.log(alteraNota(notas, 5, 3))
+
+//Atividade 9 
+
+function verificaTamanhoLista (listaDeNotas) {
+
+    return `O tamanho da lista é: ${listaDeNotas.length}`
+}
+
+console.log(verificaTamanhoLista(notas))
