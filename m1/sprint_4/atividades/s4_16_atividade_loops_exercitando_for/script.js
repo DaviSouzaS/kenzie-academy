@@ -19,15 +19,17 @@ console.log(numerosPares(arr))
 //🧠 Exercício 2 - Somando números de um array
 
 function somaNumeros (listaNumbers) {
-
+    let conversão = 0
     let soma = 0
     for (let i = 0; i <= listaNumbers.length - 1; i++) {
         
         
-        if (typeof(listaNumbers[i]) == typeof('a')) {
-            //transformar '4' em number
+        if (typeof(listaNumbers[i]) == typeof('')) {
+            conversão = parseInt(listaNumbers[i])
+            listaNumbers[i]=conversão
         }
-        soma += listaNumbers[i] 
+        soma += listaNumbers[i]
+
     }
 
     return soma
