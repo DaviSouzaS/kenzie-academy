@@ -31,7 +31,7 @@ qualTipoDeElemento(tiposDiversos2)
 
 //Math.floor()  Aproxima um numero decimal para 'baixo' ex: 0.55 vira 0, 1.66 vira 1, e assim vai. 
 
-//Math.random() * (4 - 1) + 1  Gera um número aleatorio sempre que a página é atualizada (Me parece que o número aleatorio está 'preso' entre 1,2 e 3)
+//Math.random() * (4 - 1) + 1  Gera um número aleatorio sempre que a página é atualizada (Me parece que o número aleatorio está 'preso' entre 1,2 e 3).
 
 //Math.floor(Math.random() * (4 - 1) + 1)  Então ''Math.random''está criando um número aleatório e "Math.floor" está fazendo o número aleatório ser aproximado.  
 
