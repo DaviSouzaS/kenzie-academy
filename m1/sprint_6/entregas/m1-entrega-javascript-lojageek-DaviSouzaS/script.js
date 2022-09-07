@@ -66,10 +66,10 @@ const quadros = document.querySelector('.paintings')
 function percorrerFrame(lista, anexoHtml) {
 
     for (let i = 0; i < lista.length; i++) {
-
         let secao1 = lista[i]
 
         let tamplate = tamplateFrame(secao1)
+        console.log(tamplate)
 
         anexoHtml.append(tamplate)
     }
