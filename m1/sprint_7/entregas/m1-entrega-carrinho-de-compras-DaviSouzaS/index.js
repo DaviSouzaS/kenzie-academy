@@ -82,11 +82,12 @@ percorrerCarrinho(productsCart)
 
 function tamplateCarrinho(listaCompras, total) {
 
+
     let nome = listaCompras.name
     let preco = listaCompras.price
 
     let precoTotal = document.querySelector('section')
-    let tagSpan = document.querySelector("span")
+    let tagSpan = document.querySelector(".itens")
     let tagLi = document.createElement("li")
     let tagH2 = document.createElement("h2")
     let tagP = document.createElement("p")
@@ -106,6 +107,7 @@ function tamplateCarrinho(listaCompras, total) {
     tagLi.append(tagH2, tagP)
 
     tagSpan.appendChild(tagLi)
+    console.log(tagSpan)
 }
 
 
