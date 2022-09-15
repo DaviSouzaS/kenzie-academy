@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1320px;
+}
+
+header  {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.089);
+    margin-bottom: 50px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+header a {
+    text-decoration:none;
+    color: #333333;
+    padding: 10px;
+    font-weight: 600;
+}
+
+header a:hover {
+    color: #37268C;
+    text-decoration: underline;
+    transition-duration: 0.2s;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.produtos ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 0;
+    padding-left: 0px; 
+}
+
+.produtos li {
+    list-style: none;
+    background-color: #F5F5F5;
+    margin: 0px 10px 10px 10px;
+    width: 260px;
+    padding: 0px 33px 3px 3px;
+    cursor: pointer;
+}
+
+.produtos li:hover {
+    outline: 3px solid #37268C;
+    transition-duration: 0.2s;
+}
+
+.caixaimg {
+    display: flex;
+    justify-content: center;    
+    width: 290px;
+}
+
+.produtos img {
+    width: 200px;
+}
+
+.txtcard {
+    padding: 10px 10px;
+    background-color: #FFFFFF;
+    width: 270px;
+}
+
+.txtcard h2 {
+    font-size: 20px;
+}
+
+.txtcard h2:hover {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.txtcard h3{
+    display: inline-block;
+    background-color: #2E245E;
+    color: white;
+    padding: 5px;
+    margin: 5px 0px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.txtcard h3:hover {
+    background-color: #37268C;
+    transition-duration: 0.2s;
+}
+
+.txtcard button {
+    border: 0;
+    background-color: transparent;
+    color: #333333;
+    font-weight: 500;
+}
+
+.desc {
+    color: #333333;
+    font-size: 15px;
+
+}
+
+.txtcard button:hover {
+    text-decoration: underline;
+    color: #2E245E;
+    transition-duration: 0.2s;
+}
+
+.preco {
+    color: #2E245E;
+    font-weight: bold;
+}
+
+.pesquisa {
+    border: none;
+    background-color: #F5F5F5;
+    width: 215px;
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.botaopesquisa {
+    width: 85px;
+    border: none;
+    padding: 15px;
+    background-color:  #2E245E;
+    color: #FFFFFF;
+}
+
+.carrinho {
+    
+    width: 310px;
+    margin-top: 30px;
+    background-color: #F5F5F5;
+}
+
+.carrinho > h2 {
+    margin-top: 0;
+    background-color: #37268C;
+    font-size: 20px;
+    width: 310px;
+    text-align: center;
+    padding: 10px 0px;
+    color: #FFFFFF;
+
+}
+
+::-webkit-scrollbar {
+    width:10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background:transparent;
+}
+
+::-webkit-scrollbar-thumb {
+background: #cecece;
+border-radius: 3px;
+}
+
+.carrinhovazio h3{
+    text-align: center;
+    color: #333333;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+.carrinhovazio p{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.carrinho ul {
+    height: 310px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.carrinho li {
+    display: flex;
+    font-size: 13px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.carrinho img {
+    width: 90px;
+}
+
+.carrinhoimg {
+    
+    width: 90px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+.produtocarrinho {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.produtocarrinho h2 {
+    font-size: 13px;
+    padding: 0px 10px;
+}
+
+.produtocarrinho p {
+    padding: 10px 10px;
+}
+
+.produtocarrinho a {
+    padding: 7px 10px;
+}
+
+
+.carrinho ul p {
+    color: #2E245E;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.carrinho button {
+    border: 0;
+    background-color: transparent;
+    text-decoration: none;
+    color: #333333;
+    font-size: 15px;
+}
+
+.carrinho a:hover {
+    text-decoration: underline;
+    color: #2E245E;
+    transition-duration: 0.3s;
+}
+
+.carrinho span {
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.itemcarrinho {
+    margin: 0;
+    padding: 10px;
+}
+
+.produtocarrinho button:hover {
+    transition-duration: 0.3s;
+    color: #37268C;
+    text-decoration: underline;
+}
+
+.precocarrinho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background-color: #333333;
+    color: #FFFFFF;
+    height: 100px;
+    word-spacing: 170px;
+}
+
+.produtosoff {
+    font-size: 2.5em;
+    color: #333333;
+}
+
+
+
+
+
+
+
