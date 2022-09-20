@@ -1,0 +1,30 @@
+.card-user {
+    width: 400px;
+    height: 300px;
+    border: 3px solid var(--black);
+    margin: 50px auto; /* centralizado horizontalmente*/
+    position: relative;
+}
+
+.card-user-status { 
+    position: absolute;
+    top: var(--space-element);
+    left: var(--space-element);
+    z-index: 1;
+    padding: var(--space-element) calc(var(--space-element) * 2);
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: var(--border-radius);
+}
+
+.card-user-image {
+    position:absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
