@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .section_box {
+    width: 609px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+
+.box {
+    margin: 5px;
+    width: 193px;
+    height: 215px;
+    background-color: #FF3366;
+    border-radius: 8px;
+}

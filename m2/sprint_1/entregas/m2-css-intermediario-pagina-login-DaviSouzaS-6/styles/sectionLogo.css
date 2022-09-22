@@ -1,0 +1,38 @@
+.section__logo {
+    background-color: var(--color-blue-3);
+    border-radius: var(--border-radius-1) 0 0 var(--border-radius-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 321px;
+    color: var(--color-primary);
+}
+
+.section__logo h1 {
+    background-color: var(--color-blue-6);
+    border-radius: var(--border-radius-2);
+    padding: 3px;
+    text-align: center;
+    width: 148px;
+    margin-bottom: 44px;
+}
+
+.section__logo p {
+    background-color: var(--color-blue-4);
+    color: var(--color-gray-1);
+    border-radius: var(--border-radius-2);
+    text-align: center;
+}
+
+.section__logo div {
+    margin-left: 43px;
+}
+
+.paragraph__1 {
+    width: 231px;
+    margin-bottom: 16px;
+}
+
+.paragraph__2 {
+    width: 204px;
+}

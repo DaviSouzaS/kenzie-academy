@@ -1,0 +1,31 @@
+.home-header {
+  padding: 200px 0;
+  background-image: url(../../img/bg.jpg);
+  position: relative;
+}
+
+.home-header-content {
+  max-width: 600px;
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+}
+
+.wave.top {
+  top: 0;
+}
+
+.wave.bottom {
+  bottom: 0;
+}
+
+.participants {
+  padding: 100px 0;
+}
+
+.participants-content {
+  gap: 104px;
+  margin-top: 50px;
+}

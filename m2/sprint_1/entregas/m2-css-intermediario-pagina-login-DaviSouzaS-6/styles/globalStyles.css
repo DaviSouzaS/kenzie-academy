@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+main, section, h1, p, h2, input, button{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-1);
+}
+
+:root{
+    --color-primary:#FFFFFF;
+    --color-gray-1: #181818;
+    --color-blue-1: #02091F;
+    --color-blue-2: #0D1E52;
+    --color-blue-3: #16348C;
+    --color-blue-4: #D1DDFF;
+    --color-blue-5: #B0BFEA;
+    --color-blue-6: #7B95DF;
+
+    --font-1: 'Inter', sans-serif;
+    /*ADICIONAR OS TAMANHOS CORRETOS DAS FONTES*/
+
+    --font-size-1: 15px;
+    --font-size-2: 12px;
+
+    --border-radius-1: 8px;
+    --border-radius-2: 4px;
+
+    --width-box: 240px;
+    --height-box: 44px;
+}

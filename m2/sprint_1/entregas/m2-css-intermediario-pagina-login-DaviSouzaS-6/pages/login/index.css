@@ -1,0 +1,11 @@
+body {
+    background-color: var(--color-blue-1);
+}
+
+.container {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    width: 714px;
+    height: 407px;
+}

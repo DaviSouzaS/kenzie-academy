@@ -1,0 +1,52 @@
+.button__forgot__pass {
+    border: 0;
+    background-color: var(--color-blue-2);
+    color: var(--color-primary);
+    border-radius: var(--border-radius-2);
+    font-size: var(--font-size-2);
+    margin-bottom: 34px;
+    margin-left: 121px;
+    width: 119px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.button__forgot__pass:hover {
+    transition-duration: 0.3s;
+    background-color: var(--color-blue-1);
+}
+
+.button__sign__in {
+    border: 0;
+    background-color: var(--color-blue-3);
+    color: var(--color-primary);
+    border-radius: var(--border-radius-1);
+    width: var(--width-box);
+    height: var(--height-box);
+    cursor: pointer;
+}
+
+.button__sign__in:hover {
+    transition-duration: 0.3s;
+    background-color: var(--color-blue-2);
+}
+
+.button__confirm {
+    width: 300px;
+}
+
+.close__modal {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: var(--color-blue-4);
+    border: 0;
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.close__modal:hover {
+    transition-duration: 0.3s;
+    background-color: var(--color-blue-6);
+}
+
