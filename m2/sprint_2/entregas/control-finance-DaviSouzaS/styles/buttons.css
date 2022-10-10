@@ -1,0 +1,120 @@
+.button-register-value {
+    border: none;
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-4);
+    border-radius: var(--radius-1);
+    background-color: var(--color-brand-1);
+    color: var(--color-mode);
+    cursor: pointer;
+}
+
+.button-register-value:hover {
+    transition-duration: 0.2s;
+    background-color: var(--color-brand-2);
+}
+
+.button-default {
+    height: 2rem;
+    padding-inline: 0.875rem;
+}
+
+.button-category {
+    border: 1.5px solid var(--color-grey-5);
+    background-color: var(--color-mode);
+    border-radius: var(--radius-1);
+    color: var(--color-grey-2);
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-4);
+    cursor: pointer;
+}
+
+.button-category:hover {
+    transition-duration: 0.2s;
+    border: 1.5px solid var(--color-brand-1);
+    background-color: var(--color-brand-3);
+    color: var(--color-brand-1);
+}
+
+.button-category:focus {
+    border: 1.5px solid var(--color-brand-1);
+    background-color: var(--color-brand-3);
+    color: var(--color-brand-1);
+}
+
+.button-trash {
+    background-image: url();
+    border: 1.5px solid var(--color-grey-5);
+    border-radius: var(--radius-2);
+    background-color: var(--color-mode);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.button-trash:hover, .button-trash svg:hover path {
+    transition-duration: 0.1s;
+    border: 1.5px solid var(--color-grey-4);
+    background-color: var(--color-grey-5);
+    fill: var(--color-grey-2);
+}
+
+.button-insert-value {
+    border: none;
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-4);
+    border-radius: var(--radius-1);
+    background-color: var(--color-brand-1);
+    color: var(--color-mode);
+    cursor: pointer;
+}
+
+.button-insert-value:hover {
+    transition-duration: 0.2s;
+    background-color: var(--color-brand-2);
+}
+
+.button-cancel-modal {
+    border: none;
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-4);
+    border-radius: var(--radius-1);
+    background-color: var(--color-grey-4);
+    color: var(--color-grey-2);
+    cursor: pointer;
+}
+
+.button-cancel-modal:hover {
+    transition-duration: 0.2s;
+    color: var(--color-grey-1);
+}
+
+.button-close-modal {
+    border: none;
+    background-color: var(--color-grey-5);
+    color: var(--color-grey-2);
+    font-family: var(--font-family-2);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-3);
+    padding: 4px 12px;
+    border-radius: var(--radius-2);
+    cursor: pointer;
+}
+
+.button-close-modal:hover {
+    transition-duration: 0.2s;
+    background-color: var(--color-grey-4);
+    color: var(--color-grey-1);
+}
+
+.button-entry {
+    margin-right: 10px;
+}
+
+.button-category-form {
+    padding: 5px 5px;
+}
+
+

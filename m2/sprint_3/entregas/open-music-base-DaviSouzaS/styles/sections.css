@@ -1,0 +1,49 @@
+.first-box {
+    margin-top: 77px;
+}
+
+.first-box h1 {
+    font-size: var(--font-1);
+    font-weight: var(--font-weight-1);
+}
+
+.first-box button {
+    border: none;
+    background-color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.section-1 {
+    margin-bottom: 65px;
+}
+
+.title-section-1 {
+    margin-bottom: 24px;
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-2);
+}
+
+.section-2 {
+    margin-bottom: 60px;
+}
+
+.section-3 h2, p {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+}
+
+.section-3 {
+    margin-bottom: 68px;
+}
+
+.section-3 > div {
+    margin-bottom: 32px;
+}
+
+.section-4 > h2 {
+    margin-bottom: 60px;
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+}

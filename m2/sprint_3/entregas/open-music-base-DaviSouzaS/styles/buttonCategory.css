@@ -1,0 +1,37 @@
+.list-category {
+    list-style: none;
+}
+
+.itens-category {
+    background-color: var(--color-grey-8);
+    color: var(--color-grey-0);
+    border-radius: var(--radius-1);
+    padding: 8px;
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-3);
+    cursor: pointer;
+}
+
+.itens-category:hover {
+    transition-duration: 0.4s;
+    background-color: var(--color-actived-fixed);
+    outline: 1px solid var(--color-white-fixed);
+    color: var(--color-white-fixed);
+}
+
+.button-album {
+    border: none;
+    background-color: var(--color-grey-7);
+    color: var(--color-grey-2);
+    padding: 5px;
+    border-radius: var(--radius-1);
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-3);
+    font-family: var(--principal-font);
+    cursor: pointer;
+}
+
+.button-album:hover {
+    transition-duration: 0.2s;
+    color: var(--color-grey-1);
+}

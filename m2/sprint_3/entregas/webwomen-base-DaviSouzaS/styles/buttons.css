@@ -1,0 +1,42 @@
+.div-box-text > button {
+    background-color: var(--color-brand-1);
+    border: none;
+    padding: 15px 50px;
+    border-radius: var(--radius-default);
+    color: var(--color-grey-6);
+    font-family: var(--principal-font);
+    font-weight: var(--font-weight-2);
+    font-size: var(--text-2);
+    cursor: pointer;
+}
+
+.div-box-text > button:hover {
+    transition-duration: 0.2s;
+    background-color: var(--color-brand-2);
+}
+
+.footer-iten-job > button {
+    background-color: var(--color-brand-1);
+    border: none;
+    border-radius: var(--radius-default);
+    padding: 12px 28px;
+    font-size: var(--text-2);
+    font-weight: var(--font-weight-2);
+    font-family: var(--principal-font);
+    color: var(--color-grey-6);
+    cursor: pointer;
+}
+
+.footer-iten-job > button:hover {
+    transition-duration: 0.2s;
+    background-color: var(--color-brand-2);
+}
+
+.user-job-iten > span > button, img {
+    opacity: 70%;
+}
+
+.user-job-iten > span > button:hover, img:hover {
+    transition-duration: 0.2s;
+    opacity: 100%;
+}

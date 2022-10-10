@@ -1,0 +1,23 @@
+.display-flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+.flex-direction {
+    flex-direction: row;
+}
+
+.flex-warp {
+    flex-wrap: wrap;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.gap-30 {
+    gap: 30px;
+}

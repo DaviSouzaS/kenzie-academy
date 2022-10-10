@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Finance</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Control Finance - Seu controle financeiro">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/globalStyles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/displays.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/sections.css">
+    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/animationModal.css">
+    <link rel="stylesheet" href="styles/inputs.css">
+
+</head>
+
+<body>
+
+    <header class="display-flex">
+        <div class="display-column-mobile container header-box display-flex display-flex-center display-space-between ">
+            <div class="logo-control-finance-mobile container-header-mobile">
+                <div class="display-flex">
+                    <p class="logo-text">Control</p>
+                    <p>Finance</p>
+                </div>
+            </div>
+            <button class="button-register-mobile container-header-mobile button-mobile button-default button-register-value">Registrar novo valor</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-1">
+            <div
+                class="container-mobile display-column-mobile section-financial-summary display-flex display-space-between display-flex-center container">
+                <div class="financial-summary-mobile">
+                    <p>Resumo financeiro</p>
+                </div>
+                <div class="buttons-financial-summary-mobile display-flex gap-15">
+                    <button class="button-default button-category button-filter">Todos</button>
+                    <button class="button-default button-category button-filter">Entradas</button>
+                    <button class="button-default button-category button-filter">Saídas</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2">
+            <div class="container-mobile container section-sum-values display-flex display-space-between gap-15">
+
+                <p>Soma dos valores</p>
+                <p class="amount"></p>
+            </div>
+        </section>
+
+        <section class="section-3">
+            <div class="container container-mobile">
+                <ul class="section-list-values display-flex gap-15 display-column list-values">
+                    <div class="without-values">
+                        <p class="without-values-title">Nenhum valor cadastrado</p>
+                        <p class="register-new-value">Registrar novo valor</p>
+                    </div>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="scripts/modal.js"></script>
+    <script src="scripts/valuesData.js"></script>
+    <script src="scripts/createList.js"></script>
+    <script src="scripts/addValues.js"></script>
+</body>
+
+</html>

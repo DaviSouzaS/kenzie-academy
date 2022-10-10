@@ -1,0 +1,44 @@
+header {
+    background-image: url(/assets/img/background-header.svg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.header-mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.div-box-text {
+    color: var(--color-grey-6);
+}
+
+.div-box-text > h2 {
+    font-size: var(--title-1) ;
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-3);
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.div-box-text > p {
+    font-size: var(--text-1) ;
+    font-weight: var(--font-weight-3);
+    color: var(--color-grey-5);
+    line-height: var(--line-height-2);
+}
+
+.div-box-text > div {
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-3);
+    line-height: var(--line-height-1);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+

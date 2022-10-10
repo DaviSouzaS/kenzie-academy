@@ -1,0 +1,20 @@
+.input-add-value {
+    border: 1.5px solid var(--color-grey-3);
+    border-radius: var(--radius-1);
+    background-color: var(--color-mode);
+    height: 44px;
+    margin-top: 8px;
+}
+
+.input-add-value:focus {
+    outline: 1.5px solid var(--color-brand-1);
+}
+
+.input-add-value::placeholder {
+    color: var(--color-grey-2);
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-4);
+}
+
+
+

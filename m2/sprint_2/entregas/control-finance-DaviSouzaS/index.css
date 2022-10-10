@@ -1,0 +1,83 @@
+.container {
+    margin: 0 auto;
+    max-width: 43rem;
+}
+
+@media (max-width: 800px) {
+
+    .container-mobile {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    .modal-box-mobile {
+        max-width: 600px;
+        min-width: 260px;
+    }
+
+    .display-column-mobile {
+        flex-direction: column;
+    }
+
+    .center-iten {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .display-modal-flex {
+        display: flex;
+    }
+
+    .display-mobile-start {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .type-value-mobile {
+        width: 100%;
+    }
+
+    .gap-mobile-12 {
+        gap: 12px;
+    }
+
+    .buttons-category {
+        width: 100%;
+    }
+
+    .button-category-mobile {
+        width: 100%;
+    }
+
+    .financial-summary-mobile {
+        width: 100%;
+        margin-bottom: 38px;
+    }
+
+    .buttons-financial-summary-mobile {
+        width: 100%;
+    }
+
+    .logo-control-finance-mobile {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .button-register-mobile {
+        width: 90%;
+        max-width: 288px;
+        margin-bottom: 20px;
+    }
+
+    .container-header-mobile {
+        max-width: 288px;
+    }
+
+    .buttons-modal-mobile {
+        width: 100%;
+    }
+
+    .buttons-modal-mobile > button {
+        width: 50%;
+    }
+}
