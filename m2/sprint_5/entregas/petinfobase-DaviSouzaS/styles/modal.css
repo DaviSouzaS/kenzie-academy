@@ -1,0 +1,104 @@
+.modal-box {
+    background-color: var(--full-white);
+    width: 800px;
+    margin-top: 50px;
+    padding: 32px 24px;
+    border-radius: var(--radius-2);
+}
+
+.bg-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.39);
+    height: 100vh;
+    width: 100%;
+}
+
+.logout-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.logout-modal {
+    position: absolute;
+    top: 130px;
+    left: 1050px;
+    background-color: var(--gray900);
+    width: 215px;
+    height: 117px;
+    border-radius: var(--radius-1) var(--radius-1) 0 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
+}
+
+.user-name-box {
+    width: 215px;
+    height: 55px;
+    padding: 22px 17px 0px 17px;
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-3);
+}
+
+.logout-button {
+    cursor: pointer;
+    background-color: var(--gray900);
+    width: 215px;
+    height: 62px;
+    padding: 19px 17px 0px 17px;
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-4);
+    opacity: 50%;
+}
+
+.logout-button:hover {
+    transition-duration: 0.2s;
+    background-color: var(--gray700);
+    opacity: 100%;
+}
+
+.post-open-box { 
+    height: 550px;
+}
+    
+
+.title-post-open {
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+.create-post-modal {
+    height: 450px;
+}
+
+.create-post-header {
+    margin-bottom: 48px;
+}
+
+.edit-post-modal {
+    height: 550px;
+}
+
+.modal-edit-lable {
+    margin-top: 40px;
+}
+
+.delete-post-form {
+    height: 302px;
+}
+
+.title-delete-post {
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-5);
+    margin-top: 47px;
+    margin-bottom: 16px;
+}
+
+.p-delete-post {
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-3);
+    color: var(--gray300);
+    margin-bottom: 46px;
+}

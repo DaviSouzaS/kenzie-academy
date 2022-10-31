@@ -1,0 +1,213 @@
+.principal-form-button {
+    height: 38px;
+    border: none;
+    border-radius: var(--radius-1);
+    background-color: var(--brand100);
+    color: var(--gray900);
+    font-family: var(--principal-font);
+    font-size: var( --font-size-3);
+    font-weight: var(--font-weight-2);
+    cursor: pointer;
+}
+
+.principal-form-button:hover {
+    background-color: var(--brand200);
+    transition-duration: 0.2s;
+}
+
+.white-button-from {
+    height: 38px;
+    border: 1px solid var(--gray600);
+    border-radius: var(--radius-1);
+    background-color: var(--grey900);
+    font-family: var(--principal-font);
+    font-size: var( --font-size-3);
+    font-weight: var(--font-weight-2);
+    cursor: pointer;
+}
+
+.white-button-from:hover {
+    background-color: var(--gray800);
+    transition-duration: 0.3s;
+}
+
+.button-entry {
+    margin-top: 59px;
+    margin-bottom: 26px;
+}
+
+.button-register-login {
+    width: 90%;
+}
+
+.register-button {
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.side-button-back {
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-4);
+    font-family: var(--principal-font);
+    background-color: var(--gray900);
+    border: 1px solid var(--gray600);
+    border-radius: var(--radius-1);
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.side-button-back:hover {
+    background-color: var(--gray800);
+    transition-duration: 0.3s;
+}
+
+.create-post {
+    border: none;
+    border-radius: var(--radius-1);
+    background-color: var(--brand100);
+    color: var(--gray900);
+    height: 38px;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.create-post:hover {
+    transition-duration: 0.2s;
+    background-color: var(--brand200);
+}
+
+.open-post-button {
+    border: none;
+    background-color: transparent;
+    color: var(--brand100);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-2);
+    font-family: var(--principal-font);
+    cursor: pointer;
+}
+
+.open-post-button:hover {
+    transition-duration: 0.2s;
+    color: var(--brand200);
+}
+
+.edit-button {
+    background-color: var(--grey900);
+    border: 1px solid var(--gray600);
+    height: 32px;
+    padding: 0 16px;
+    border-radius: var(--radius-1);
+    margin-right: 10px;
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-4);
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: var(--gray800);
+    border: 1px solid var(--gray600);
+    transition-duration: 0.3s;
+}
+
+.delete-button {
+    background-color: var(--gray700);
+    border: 1px solid var(--gray600);
+    color: var(--gray400);
+    height: 32px;
+    padding: 0 16px;
+    border-radius: var(--radius-1);
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-4);
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    transition-duration: 0.3s;
+    color: var(--gray300);
+}
+
+.button-close-modal {
+    cursor: pointer;
+    background-color: var(--gray600);
+    width: 32px;
+    height: 32px;
+    color: var(--gray400);
+    font-family: var(--button-close-font);
+    font-weight: var(--font-weight-4);
+    border: none;
+    border-radius: var(--radius-1);
+}
+
+.button-close-modal:hover {
+    transition-duration: 0.3s;
+    color: var(--gray300);
+}
+
+.button-publish {
+    cursor: pointer;
+    background-color: var(--brand100);
+    color: var(--gray900);
+    width: 101px;
+    height: 38px;
+    border: none;
+    border-radius: var(--radius-1);
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-3);
+    font-family: var(--principal-font);
+}
+
+.button-cancel {
+    cursor: pointer;
+    background-color: var(--gray600);
+    color: var(--gray400);
+    width: 101px;
+    height: 38px;
+    border: none;
+    border-radius: var(--radius-1);
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-3);
+    font-family: var(--principal-font);
+    padding: 7px 19px;
+}
+
+.button-cancel:hover {
+    transition-duration: 0.3s;
+    color: var(--gray300);
+}
+
+.button-publish:hover {
+    transition-duration: 0.3s;
+    background-color: var(--brand200);
+}
+
+.button-save-editions {
+    cursor: pointer;
+    background-color: var(--brand100);
+    color: var(--gray900);
+    width: 162px;
+    height: 38px;
+    border: none;
+    border-radius: var(--radius-1);
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-3);
+    font-family: var(--principal-font);
+}
+
+.button-delete-post {
+    cursor: pointer;
+    background-color: var(--alert100);
+    color: var(--gray900);
+    width: 189px;
+    height: 38px;
+    border: none;
+    border-radius: var(--radius-1);
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-3);
+    font-family: var(--principal-font);
+}
+
+.button-delete-post:hover {
+    transition-duration: 0.3s;
+    background-color: var(--alert200);
+}

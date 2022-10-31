@@ -1,0 +1,15 @@
+.search-profile {
+    width: 316px;
+    height: 38px;
+    background-color: var(--color-grey-1);
+    border: 1px solid #FFFFFF1F;
+    border-radius: var(--radius-2);
+    margin-bottom: 20px;
+}
+
+.search-profile::placeholder {
+    padding-left: 13px;
+    font-weight: var(--font-weight-4);
+    font-size: var(--font-size-5);
+    color: #FFFFFF80;
+}

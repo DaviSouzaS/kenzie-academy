@@ -1,0 +1,70 @@
+header > div {
+    margin-top: 75px;
+}
+
+.logo-living {
+    margin-top: 64px;
+    margin-bottom: 69px;
+}
+
+.logo-living > h1 {
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-2);    
+}
+
+.slogan-living {
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-1);
+    line-height: var(--line-height-1);
+    width: 430px;
+}
+
+.slogan-living > span {
+    color: var(--color-brand-100);
+}
+
+.paragraph-living {
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-3);
+    line-height: var(--line-height-3);
+    margin: 24px 0;
+    width: 422px;
+}
+
+.consume-content {
+    cursor: pointer;
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-2);
+}
+
+.img-header-living {
+    margin-top: 75px;
+    width: 578px;
+    height: 440px;
+}
+
+.post-lists > div {
+    width: 548px;
+    margin-bottom: 93px;
+}
+
+.title-post {
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-2);
+    margin-top: 24px;
+}
+
+.desc-post {
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-3);
+    line-height: var(--line-height-3);
+    margin: 16px 0 16px 0;
+}
+
+.img-post {
+    width: 548px;
+    height: 172px;
+    object-fit: cover;
+}
+

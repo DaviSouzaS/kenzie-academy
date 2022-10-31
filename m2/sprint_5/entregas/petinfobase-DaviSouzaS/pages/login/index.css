@@ -1,0 +1,63 @@
+.main-box-login {
+    height: 100vh;
+}
+
+.text-box-login {
+    width: 365px;
+}
+
+.img-box-login {
+ width: 430px;
+}
+
+.form-box-login {
+    border: 1px solid var(--gray600);
+    border-radius: var(--radius-1);
+    height: 600px;
+    width: 380px;
+    background-color: var(--gray900);
+}
+
+.wrong-data {
+    color: var(--alert100);
+}
+
+.blue-words {
+    color: var(--brand100);
+}
+
+.logo {
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-3);
+    margin-bottom: 24px;
+}
+
+.slogan {
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-3);
+    line-height: var(--line-height-1);
+}
+
+.img-box {
+    margin-right: 70px;
+}
+
+.infos {
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-1);
+    margin-top: 24px;
+    margin-bottom: 24px;
+    line-height: var(--line-height-2);
+    color: var(--gray300);
+}
+
+.login-title {
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-2);
+}
+
+.back-register {
+    width: 90%;
+}
+
+

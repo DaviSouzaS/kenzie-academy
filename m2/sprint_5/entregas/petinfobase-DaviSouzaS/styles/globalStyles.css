@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand100: #364FC7;
+  --brand200: #3B56D9;
+  --gray100: #212529;
+  --gray200: #343A40;
+  --gray300: #495057;
+  --gray400: #868E96;
+  --gray500: #ADB5BD;
+  --gray600: #E9ECEF;
+  --gray700: #F1F3F5;
+  --gray800: #F8F9FA;
+  --gray900: #FCFEFF;
+  --alert100: #C73650;
+  --alert200: #DB3C58;
+  --sucess100: #087F5B;
+  --grey-border: #D9D9D9;
+  --feed-bg: #F8F9FA;
+  --full-white: #FFFFFF;
+
+  --font-size-1: 32px;
+  --font-size-2: 20px;
+  --font-size-3: 16px;
+  --font-size-4: 14px;
+  --font-size-5: 24px;
+
+  --font-weight-1: 400;
+  --font-weight-2: 500;
+  --font-weight-3: 600;
+  --font-weight-4: 700;
+
+  --radius-1: 4px;
+  --radius-2: 8px;
+
+  --principal-font: 'IBM Plex Sans', sans-serif;
+  --button-close-font: 'Nunito', sans-serif;
+
+  --line-height-1: 48px;
+  --line-height-2: 24px;
+  --line-height-3: 21px;
+  --line-height-4: 36px;
+
+}
+
+body {
+  font-family: var(--principal-font);
+  color: var(--gray100);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/pages/login/index.css">
+    <link rel="stylesheet" href="/styles/displays.css">
+    <link rel="stylesheet" href="/styles/globalStyles.css">
+    <link rel="stylesheet" href="/styles/inputs.css">
+    <link rel="stylesheet" href="styles/forms.css">
+    <link rel="stylesheet" href="/styles/buttons.css">
+    <title>Petinfo - Login</title>
+</head>
+<body>
+
+    <main class="main-box-login display-flex justify-content-center align-items-center">
+        
+        <div class="img-box-login display-flex flex-direction-column align-items-center">
+            <div class="text-box-login">
+                <h1 class="logo">Petinfo</h1>
+                <p class="slogan"><span class="blue-words">Amor</span> e <span class="blue-words">carinho</span> por meio do conhecimento</p>
+                <p class="infos">Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+            </div>
+            <div class="display-flex gap-18 img-box">
+                <span class="display-flex flex-direction-column gap-18">
+                    <span class="display-flex gap-18">
+                        <img src="/assets/Rectangle 2.svg" alt="cat-pet">
+                        <img src="/assets/Rectangle 3.svg" alt="dog-pet">
+                    </span>
+                    <img src="/assets/Rectangle 4.svg" alt="dog-pet">
+                </span>
+                <img src="/assets/Rectangle 5.svg" alt="cat-pet">
+            </div>
+        </div>
+
+        <div class="form-box-login display-flex flex-direction-column justify-content-center align-items-center">
+            <form class="display-flex flex-direction-column form-login">
+                <h1 class="login-title">Login</h1>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email aqui">
+
+                <label for="password">Senha</label>
+                <input class="login-pass" type="password" id="password" placeholder="Digite sua senha aqui">
+                <span class="wrong-box"></span>
+
+                <button type="submit" class="principal-form-button button-entry">Acessar</button>
+
+                <p class="paragrath-form-login-1">Ainda não possui conta?</p>
+
+                <p class="paragrath-form-login-2">Clicando no botão abaixo, você pode se cadastrar rapidamente</p>
+            </form>
+
+            <button class="back-register white-button-from">Cadastrar</button>
+        </div>
+
+    </main>
+
+    <script type="module" src="/scripts/login.js"></script>
+</body>
+</html>

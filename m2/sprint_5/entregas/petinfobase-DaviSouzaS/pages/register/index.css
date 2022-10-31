@@ -1,0 +1,50 @@
+.form-box {
+    width: 350px;
+    height: 610px;
+    border: 1px solid var(--grey-border);
+    border-radius: var(--radius-1);
+    background-color: var(--gray900);
+}
+
+.text-box {
+    width: 311px;
+}
+
+.text-box h1 {
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-1);
+    margin-bottom: 24px;
+}
+
+.paragraph-register-1 {
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-3);    
+    color: var(--brand100);
+    margin-bottom: 24px;
+}
+
+.paragraph-register-2 {
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-3);
+    color: var(--gray300);
+    line-height: var(--line-height-2);
+    margin-bottom: 24px;
+}
+
+.img-box {
+    width: 430px;
+    height: 80vh;
+}
+
+.main-box {
+    height: 100vh;
+}
+
+.register-card {
+    width: 90%;
+}
+
+.register-card h1 {
+    font-weight: var( --font-weight-2);
+    font-size: var(--font-size-2);
+}

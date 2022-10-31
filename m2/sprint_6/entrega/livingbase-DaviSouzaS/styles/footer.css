@@ -1,0 +1,22 @@
+.footer-livng {
+    background-color: var(--color-grey-100); 
+    height: 255px;  
+} 
+
+.logo-footer {
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-2);
+    color: var(--color-grey-700);
+}
+
+.paragraph-footer {
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-4);
+    color: var(--color-grey-300);
+    line-height: var(--line-height-3);
+    width: 551px;
+}
+
+.dix-box-footer {
+    width: 100%;
+}
