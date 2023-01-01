@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/globalStyles.css">
+    <link rel="stylesheet" href="/src/styles/displays.css">
+    <link rel="stylesheet" href="/src/styles/buttons.css">
+    <link rel="stylesheet" href="/src/styles/header.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container header-box display-flex space-between">
+            <span class="display-flex gap-15 align-items-center">
+                <div class="logo"></div>
+                <img src="/src/assets/logo.svg" alt="logo">
+            </span>
+
+            <div class="menu-icon-box"></div>
+            <!-- <img src="/src/assets/menuIcon.svg" alt="menu-icon" class="menu-icon"> -->
+        </div>
+        <div class="menu-box">
+        </div>
+    </header>
+
+    <main>
+        <select class="business-sectors">
+            <option value="select-sectors">Selecionar Setor</option>
+        </select>
+        <ul class="companies-list">
+        </ul>
+    </main>
+    
+
+    <script type="module" src="src/scripts/homePage.js"></script>
+</body>
+</html>

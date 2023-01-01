@@ -1,0 +1,162 @@
+.logout-button {
+    background-color: var(--color2);
+    border: 1px solid var(--color1);
+    width: 142px;
+    height: 48px;
+    font-family: var(--principal-font);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-3);
+    color: var(--color1);
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    transition-duration: 0.2s;
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.add-department {
+    background-color: var(--color1);
+    color: var(--color2);
+    width: 150px;
+    height: 48px;
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-3);
+    cursor: pointer;
+}
+
+.add-department:hover {
+    transition-duration: 0.3s;
+    background-color: var(--color12);
+}
+
+.button-icon {
+    cursor: pointer;
+}
+
+.box-close-button {
+    width: 100%;
+}
+
+.box-close-button > button {
+    background-color: transparent;
+    border: none;
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-2);
+    cursor: pointer;
+}
+
+.button-input {
+    border: none;
+    background-color: var(--color1);
+    color: var(--color2);
+    font-family: var(--principal-font);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-3);
+    width: 430px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.button-input:hover {
+    transition-duration: 0.3s;
+    background-color: var(--color12);
+}
+
+.button-input-delete {
+    border: none;
+    background-color: var(--color5);
+    color: var(--color2);
+    font-family: var(--principal-font);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-3);
+    width: 430px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.button-input-delete:hover {
+    transition-duration: 0.3s;
+    background-color: var(--color13);
+}
+
+.button-get {
+    border: none;
+    background-color: var(--color5);
+    color: var(--color2);
+    font-family: var(--principal-font);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-3);
+    width: 157px;
+    height: 48px;
+    cursor: pointer;
+    margin: 11px 39px 0 0 ;
+}
+
+.button-get:hover {
+    transition-duration: 0.3s;
+    background-color: var(--color13);
+}
+
+.button-close-modal {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.button-off {
+    margin-top: 22px;
+    border: 1px solid var(--color4);
+    background-color: var(--color2);
+    color: var(--color4);
+    font-family: var(--principal-font);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-3);
+    width: 157px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.button-off:hover {
+    transition-duration: 0.3s;
+    color: var(--color2);
+    background-color: var(--color4);
+}
+
+.button-login {
+    cursor: pointer;
+    width: 149px;
+    height: 48px;
+    background-color: var(--color2);
+    border: 1px solid var(--color1);
+    color: var(--color1);
+    font-family: var(--principal-font);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-3);
+    margin-left: 25px;
+}
+
+.button-login:hover {
+    transition-duration: 0.3s;
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.button-register {
+    cursor: pointer;
+    width: 149px;
+    height: 48px;
+    background-color: var(--color1);
+    border: none;
+    color: var(--color2);
+    font-family: var(--principal-font);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-3);
+    margin-right: 25px;
+}
+
+.button-register:hover {
+    transition-duration: 0.3s;
+    background-color: var(--color12);
+}
